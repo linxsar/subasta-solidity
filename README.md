@@ -4,13 +4,9 @@ Este contrato Solidity implementa una subasta con depósito, reembolsos, extensi
 
 ## Pruebas realizadas
 
-Las pruebas fueron parciales, pero se logró comprobar que la función `ofertar` funciona para:
+Las pruebas fueron parciales, pero se logró comprobar que la función `ofertar` funciona.
 
-- Aceptar ofertas que superan en al menos un 5% la mejor oferta anterior.
-- Extender la subasta si la oferta se realiza en los últimos 10 minutos.
-- Actualizar los depósitos para permitir reembolsos posteriores.
-
-No se completaron pruebas exhaustivas de todas las funcionalidades.
+No se completaron pruebas de todas las funcionalidades.
 
 ## Datos del despliegue
 
